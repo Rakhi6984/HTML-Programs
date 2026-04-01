@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<style>
+    table{
+        width:40%;
+        border-collapse:collapse;
+    }
+    th,td{
+        border:1px solid black;
+        padding:8px;
+        text-align:right;
+        }
+</style>
+<body style="background-color:lightgreen;">
+    <h1 style="text-align:center">Job Application Form</h1>
+    <form>
+        <fieldset>
+        <legend>Personal Details</legend>
+        First Name:
+        <input type="text" name="First Name" placeholder="Enter First Name">
+        Middle Name:
+        <input type="text" name="Middle Name" placeholder="Enter Middle Name">
+        Last name:
+        <input type="text" name="Last Name" placeholder="Enter Last Name"><br><br>
+        Gender:
+        <input type="Radio" name="Gender" value="Male">Male
+        <input type="Radio" name="Gender" value="Female">Female<br><br>
+        Phone No:
+        <input type="text" name="Phone No" placeholder="Enter Mobile No"><br><br>
+        Address:<br><br>
+        <textarea rows="5"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Education Details</legend>
+            <table>
+                <tr>
+                <th>Class</th>
+                <th>Board University</th>
+                <th>Passing Year</th>
+                <th>Division</th>
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td><input type="text" name="10th" placeholder="Enter Board University"></td>
+                <td><input type="text" name="10th" placeholder="Enter Passing Year"></td>
+                <td><input type="text" name="10th" placeholder="Enter Division"></td>
+            </tr>
+            <tr>
+                <td>12th</td>
+                <td><input type="text" name="12th" placeholder="Enter Board University"></td>
+            <td><input type="text" name="12th" placeholder="Enter Passing Year"></td>
+            <td><input type="text" name="12th" placeholder="Enter Division"></td>
+            </tr>
+            <tr>
+                <td>Graduation</td>
+                <td><input type="text" name="Graduation" placeholder="Enter Board University"></td>
+                <td><input type="text" name="Graduation" placeholder="Enter Passing Year"></td>
+                <td><input type="text" name="Graduation" placeholder="ENter Division"></td>
+            </tr>
+            <tr>
+                <td>Others</td>
+                <td><input type="text" name="Others" placeholder="Enter Board University"></td>
+                <td><input type="text" name="Others" placeholder="Enter Passing Year"></td>
+                <td><input type="text" name="Others" placeholder="Enter Division"></td>
+            </tr>
+            </table>
+</fieldset>
+<p>Experience(in Months):96 months experience of teaching field</p><br><br>
+<input type="text" value="Submit">
+    </form>
+</body>
+</html>
