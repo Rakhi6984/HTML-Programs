@@ -1,0 +1,9 @@
+.box{
+border-style:inset;
+border-color:lightpink;
+border-width:7px;
+border-height:100px;
+border-bottom-left:2px;
+border-bottom-style:hidden;
+border-bottom-width:3px;
+}
