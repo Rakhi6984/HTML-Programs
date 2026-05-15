@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling Example</title>
+</head>
+<body>
+    <button id="myButton">Click Me</button>
+    <script>
+        //Get the button element
+        var button=document.getElementById("myButton");
+        //Set up an event listener for the click event
+        button.addEventListener("click",function(){
+            //Change the button's text color to red
+            button.style.color="red";
+        })
+    </script>
+</body>
+</html>
